@@ -52,7 +52,7 @@ while (run=="y"):
 
 ## Print the results out to a text file
     text_file = open("poll_output_%d.txt" %filerun, "w")
-    with open("poll_output%d.txt" %filerun, "w") as text_file:
+    with open("poll_output_%d.txt" %filerun, "w") as text_file:
         print("...", file = text_file)
         print("Election Results", file = text_file)
         print("-" * 20, file = text_file)

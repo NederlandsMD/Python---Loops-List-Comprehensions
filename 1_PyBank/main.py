@@ -60,7 +60,7 @@ while (run=="y"):
 
 ## Print the results out to a text file
     text_file = open("bank_output_%d.txt" %filerun, "w")
-    with open("bank_output.txt", "w") as text_file:
+    with open("bank_output_%d.txt" %filerun, "w") as text_file:
         print("Financial Analysis", file = text_file)
         print("-" * 20, file = text_file)
         print("Total Months: " + str(Num_rows), file = text_file)
