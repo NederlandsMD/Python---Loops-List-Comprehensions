@@ -1,4 +1,4 @@
-# Python Exercises
+# Python Exercises - Arrays, Loops, and Dynamic File Writing
 
 The two exercises in this repository use Python to read through bank statements and polling data, respectively. 
 
@@ -20,3 +20,8 @@ And dynamically writes the output to a text file:
 text_file = open("bank_output_%d.txt" %filerun, "w")
 
 # Polling Data
+
+This script creates a python script to analyze raw vote data from a fictional small town and return an analysis with number of votes cast, a list of candidates who received votes, percentage of votes won by each candidate, total number of votes won by each candidate, and winner of the election based on popular vote.
+
+The script returns the output both to the terminal and to a dynamically written text file.
+
