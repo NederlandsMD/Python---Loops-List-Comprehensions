@@ -4,6 +4,8 @@ The two exercises in this repository use Python to read through bank statements 
 
 # Bank Statements
 
+File: main.py in the folder "1_PyBank".
+
 This script analyzes the financial records of a fictional company, and prints out a summary to a text file. The file includes the number of months in the dataset, total revenue gained, average change in revenue between months over the time period, and greatest increase and decrease in revenue (date and amount).
 
 The script is written so that users can input the budget sheet number, then the program finds the correct file and runs the analysis accordingly. 
@@ -20,6 +22,8 @@ And dynamically writes the output to a text file:
 text_file = open("bank_output_%d.txt" %filerun, "w")
 
 # Polling Data
+
+File: main.py in folder "2_PyPoll".
 
 This script creates a python script to analyze raw vote data from a fictional small town and return an analysis with number of votes cast, a list of candidates who received votes, percentage of votes won by each candidate, total number of votes won by each candidate, and winner of the election based on popular vote.
 
