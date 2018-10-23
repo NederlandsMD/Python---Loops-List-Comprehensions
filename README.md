@@ -25,3 +25,6 @@ This script creates a python script to analyze raw vote data from a fictional sm
 
 The script returns the output both to the terminal and to a dynamically written text file.
 
+The script makes use of while loops to dynamically read in raw polling data, dynamically adds new candidates to the candidate array if they receive votes, then calculates the vote percentage of each candidates and finds the winning candidate.k 
+    winning_index = Vote_percentage.index(max(Vote_percentage))
+    winner = Candidates[winning_index]
