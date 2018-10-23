@@ -8,6 +8,15 @@ This script analyzes the financial records of a fictional company, and prints ou
 
 The script is written so that users can input the budget sheet number, then the program finds the correct file and runs the analysis accordingly. 
 
-This script makes use of 
+This script makes use of while loops, for loops, appending to arrays, list comprehensions, functions such as sum() and len(), identifies array entries by their index ((Min_inx = int(Revenue_change.index(Min_rc)) + 1)).
+
+It also dynamically reads in a file:
+csvpath = os.path.join("bank_raw_data", "budget_data_%d.csv" %filerun)
+
+Uses specific formatting to modify output:
+print("Greatest Increase in Revenue: " + str(Max_month) + " ($" + '%.2f'%Max_rc + ")")
+
+And dynamically writes the output to a text file:
+text_file = open("bank_output_%d.txt" %filerun, "w")
 
 # Polling Data
